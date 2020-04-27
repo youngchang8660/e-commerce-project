@@ -2,13 +2,37 @@
   "name": "first-personal-project",
   "version": "0.1.0",
   "private": true,
+  "main": "server/index.js",
+  "proxy": "http://localhost:4040",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "add": "^2.0.6",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "emotion": "^10.0.27",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "massive": "^6.2.0",
+    "nodemailer": "^6.4.6",
     "react": "^16.13.1",
+    "react-background-slideshow": "^1.0.4",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-fade-in": "^0.1.8",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-stripe-checkout": "^2.6.3",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-promise-middleware": "^6.1.2",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "twilio": "^3.42.2"
   }
 }

@@ -1,0 +1,198 @@
+.login-body {
+        width: 100%;
+        height: 100vh;
+        border: 1px solid none;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        
+}
+
+.customer-container {
+    width: 500px;
+    height: 300px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+
+.customer-login {
+    font-size: 70px;
+    color: gray;
+}
+
+.login-form {
+    /* position: absolute; */
+    right: 220px;
+    top: 400px;
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailInput, .passwordInput {
+    width: 500px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signIn-button {
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 90px;
+    height: 50px;
+    background-image: url(https://www.walkingcaneco.com/assets/images/WCS11.jpg);
+    color: white;
+    font-weight: bold;
+}
+
+.register-button {
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 90px;
+    height: 50px;
+    background-image: url(https://image.freepik.com/free-photo/bamboo-surface-merge-background-top-view-brown-wood-paneling_7182-1943.jpg);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    .login-body {
+        width: 100%;
+        height: 100vh;
+        border: 1px solid none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -150px;
+    }
+    .customer-container {
+        width: 500px;
+        height: 200px;
+        border-right: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+        margin-right: 100px;
+        padding-bottom: 50px;
+    }
+    .customer-login {
+        font-size: 70px;
+        color: gray;
+        text-align: center;
+    }
+    .login-form {
+        margin-top: 50px;
+    }
+    .input-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .emailInput, .passwordInput {
+        width: 500px;
+        height: 40px;
+        border: 1px solid #e0e0e0;
+        margin-top: 50px;
+        padding-left: 20px;
+        font-weight: bold;
+        background-color: #e0e0e0;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    } 
+    .signIn-button {
+        margin-top: 40px;
+        border: 1px solid black;
+        width: 90px;
+        height: 50px;
+        background-image: url(https://www.walkingcaneco.com/assets/images/WCS11.jpg);
+        color: white;
+        font-weight: bold;
+    }
+    .register-button {
+        margin-top: 40px;
+        border: 1px solid black;
+        width: 90px;
+        height: 50px;
+        background-image: url(https://image.freepik.com/free-photo/bamboo-surface-merge-background-top-view-brown-wood-paneling_7182-1943.jpg);
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 376px) {
+    .login-body {
+        width: 100%;
+        height: 100vh;
+        border: 1px solid none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .customer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 100px;
+    }
+    .customer-login {
+        font-size: 50px;
+        color: gray;
+        text-align: center;
+    }
+    .login-form {
+        margin-top: 30px;
+    }
+    .input-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+    .emailInput, .passwordInput {
+        width: 270px;
+        height: 30px;
+        border: 1px solid #e0e0e0;
+        margin-top: 50px;
+        padding-left: 20px;
+        font-weight: bold;
+        background-color: #e0e0e0;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    } 
+    .signIn-button {
+        margin-top: 40px;
+        border: 1px solid black;
+        width: 80px;
+        height: 40px;
+        background-image: url(https://www.walkingcaneco.com/assets/images/WCS11.jpg);
+        color: white;
+        font-weight: bold;
+    }
+    .register-button {
+        margin-top: 40px;
+        border: 1px solid black;
+        width: 80px;
+        height: 40px;
+        background-image: url(https://image.freepik.com/free-photo/bamboo-surface-merge-background-top-view-brown-wood-paneling_7182-1943.jpg);
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,34 @@
+.cart-body {
+    display: flex;
+}
+
+.cart-list {
+    width: 65%;
+    height: 100%;
+    border: 1px solid none;
+    margin-top: 100px;
+}
+
+.checkout-body {
+    border: 1px solid none;
+    width: 35%;
+    height: 100vh;
+}
+
+@media (max-width: 376px) {
+    .cart-body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .checkout-body {
+        border: 1px solid none;
+        width: 100%;
+        height: 50vh;
+    }
+    .cart-list {
+        width: 100%;
+        height: 100%;
+        border: 1px solid none;
+        margin-top: 100px;
+    }
+}
