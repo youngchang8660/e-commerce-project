@@ -13,7 +13,7 @@ class Landing extends Component {
         'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-one.jpeg?raw=true',
         'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-two.jpeg?raw=true',
         'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-three.jpeg?raw=true',
-        'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-four.jpeg?raw=true'
+        // 'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-four.jpeg?raw=true'
       ],
       text: {
         recipient: '',
