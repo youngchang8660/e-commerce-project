@@ -10,10 +10,10 @@ class Landing extends Component {
     super()
     this.state = {
       images: [
-        'https://images.unsplash.com/photo-1543589365-3cc63c87243f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
-        'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-        // 'https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80',
-        // 'https://images.unsplash.com/photo-1491926626787-62db157af940?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
+        'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-one.jpeg?raw=true',
+        'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-two.jpeg?raw=true',
+        'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-three.jpeg?raw=true',
+        'https://github.com/youngchang8660/e-commerce-project/blob/master/e-commerce-slide-four.jpeg?raw=true'
       ],
       text: {
         recipient: '',
