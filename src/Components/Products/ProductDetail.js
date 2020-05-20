@@ -155,4 +155,6 @@ const mapStateToProps = reduxState => {
     return {product, user}
 }
 
+
+
 export default connect(mapStateToProps, {getOneProduct, getUser})(ProductDetail)

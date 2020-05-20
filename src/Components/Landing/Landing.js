@@ -48,7 +48,7 @@ class Landing extends Component {
     return (
       <div className='body'>
         <Header />
-        <Sliders slides={this.state.images} autoPlay={3} />
+        <Sliders slides={this.state.images} autoPlay={7} />
         {/* <div className='landing-body'></div> */}
         <div className='body-two-container'>
           <div className='body-two'>

@@ -31,7 +31,7 @@ class Products extends Component {
 
     componentDidMount = async () => {
         await this.checkUsers()
-        this.getProducts()
+        await this.getProducts()
     }
 
     getProducts = () => {

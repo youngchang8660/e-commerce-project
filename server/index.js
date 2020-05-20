@@ -7,6 +7,7 @@ const express = require('express'),
       authCtrl = require('./controllers/authController'),
       mainCtrl = require('./controllers/mainController'),
       port = SERVER_PORT,
+      path = require('path'),
       app = express();
 
 
@@ -45,5 +46,10 @@ app.post('/api/cart-item', mainCtrl.addToCart)
 app.get('/api/cart/:id', mainCtrl.getCart)
 app.delete('/api/cart-item/:id', mainCtrl.deleteCartItem)
 app.put('/api/purchase-cart/:id', mainCtrl.paidItem)
+
+app.use(express.static(__dirname + '/../build'))
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'))
+})
 
 app.listen(port, () => console.log(`Server running on ${port}`))
